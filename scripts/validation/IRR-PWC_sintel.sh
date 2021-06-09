@@ -15,7 +15,7 @@ SIZE_OF_BATCH=4
 
 # validate clean configuration
 SAVE_PATH="$EXPERIMENTS_HOME/eval_temp/$MODEL"
-python ../../main.py \
+python3 ../../main.py \
 --batch_size=$SIZE_OF_BATCH \
 --batch_size_val=$SIZE_OF_BATCH \
 --checkpoint=$CHECKPOINT \
